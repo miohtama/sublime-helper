@@ -1,0 +1,14 @@
+<config>
+
+  <parm name="COL_LIMIT" value="int(1000)" />
+
+  <parm name="SHEBANG" value="" />
+  <parm name="PARENTHESIZE_TUPLE_DISPLAY" value="bool(False)" />
+  <parm name="ADD_BLANK_LINES_AROUND_COMMENTS" value="bool(False)" />
+  <parm name="ADD_BLANK_LINE_AFTER_DOC_STRING" value="bool(False)" />
+  <parm name="MAX_SEPS_FUNC_DEF" value="int(99)" />
+  <parm name="MAX_SEPS_FUNC_REF" value="int(99)" />
+
+  <parm name="WRAP_DOC_STRINGS" value="bool(False)" />
+  <parm name="NORMALIZE_DOC_STRINGS" value="bool(False)" />
+</config>
