@@ -1,3 +1,4 @@
+// http://opensourcehacker.com/2012/05/11/sublime-text-2-tips-for-python-and-web-developers/#Add_CodeIntel_autocompletion_support
 {
 	"auto_complete_delay": 500,
 	"csslint_options":
