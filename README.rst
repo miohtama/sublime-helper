@@ -49,6 +49,14 @@ Features
 
 - `More info in the related blog post <http://opensourcehacker.com/2012/05/11/sublime-text-2-tips-for-python-and-web-developers/#Add_CodeIntel_autocompletion_support>`_
 
+Shell notes
+---------------
+
+By default, Bash shell *.bashrc* is fixed to enable *subl* command.
+If you are using any other shell please add the command along the following lines to your shell config file::
+
+    source $HOME/sublime-helper/bin/sublime-shell-settings
+
 Author
 --------------
 

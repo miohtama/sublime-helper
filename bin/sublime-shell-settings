@@ -1,7 +1,7 @@
 # Source this file in your shell
 
 # Add Sublime Text 2 wrapper to path
-PATH=$PATH:$HOME/sublime-helper/bin
+PATH=$HOME/sublime-helper/bin:$PATH
 
 # With the following, teach your muscle memory to use Sublime Text
 

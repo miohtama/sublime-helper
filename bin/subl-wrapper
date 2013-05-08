@@ -5,6 +5,7 @@
 # (otherwise it returns immediately)
 #
 #
+#
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
@@ -15,4 +16,5 @@ if [ ! -e "$SUBL" ] ; then
     exit 1
 fi
 
-"$SUBL" --add $@
+"$SUBL" $@
+
