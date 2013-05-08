@@ -3,7 +3,7 @@ Introduction
 
 *sublime-helper* is a shell script collection to setup Sublime Text configuration files and command line aliases based on predefined templates.
 
-.. contents :: :local:
+.. contents ::
 
 **Warning**: Running *install.bash* will override existing Sublime Text 2 configs if anything has been changed from the default settings. **Please backup your existing configuration files if you want to keep them before running this**.
 
@@ -25,8 +25,8 @@ OSX
 
 Use default Sublime Text 2 installation location.
 
-Run Sublime Text once
-----------------------
+Run Sublime Text once to install Package Control
+--------------------------------------------------
 
 Install Package Control inside Sublime Text.
 
@@ -41,7 +41,7 @@ Close Sublime Text.
 Installing shell script and terminal helpers
 -----------------------------------------------
 
-Make sure Sublime Text is closed in this point.
+Make sure Sublime Text has Package Control installed (see above) and Sublime Text is closed in this point.
 
 Install config importer and shell helpers. This will create *sublime-helper* folder in your home directory::
 
