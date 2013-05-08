@@ -17,7 +17,7 @@ Backup everything here.
 Linux
 ------
 
-Install Sublime Text on Linux and extract .tar.bz2 as *~/Sublime Text 2* folder (folder in your home directory)
+Install Sublime Text on Linux and extract .tar.bz2 as *~/Sublime Text 2* folder (*Sublime Text 2* folder in your home directory)
 
 OSX
 ----
@@ -40,13 +40,15 @@ Close Sublime Text.
 Installing shell script and terminal helpers
 -----------------------------------------------
 
-Install shell helpers::
+Make sure Sublime Text is closed in this point.
+
+Install config importer and shell helpers::
 
     sudo apt-get install git  # Or your distribution corresponding command
-    # Note: Currently supporting only setting up in ~/sublime-helper as path is hardcoded to .bashrc helper
     cd ~
-    git clone git@github.com:miohtama/sublime-helper.git
+    git clone git://github.com/miohtama/sublime-helper.git
     ~/sublime-helper/bin/setup.sh
+    # Note: Currently supporting only setting up in ~/sublime-helper as path is hardcoded to .bashrc helper
 
 Features
 ----------
