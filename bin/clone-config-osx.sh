@@ -13,3 +13,7 @@ cp ~/tools/zsh-scripts/bin/subl-wrapper .
 # PythonTidy settings file used with PythonTidy plugin
 # (Line wrap disabled)
 cp ~/.pythontidy.xml .
+
+# Dropbox setup script
+cp /Users/mikko/tools/zsh-scripts/bin/setup-sync-sublime-over-dropbox.sh .
+

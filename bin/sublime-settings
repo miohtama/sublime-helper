@@ -1,0 +1,19 @@
+# Source this file in your shell
+
+# Add Sublime Text 2 wrapper to path
+PATH=$PATH:$HOME/sublime-helper/bin
+
+# With the following, teach your muscle memory to use Sublime Text
+
+# Use subl alias to launch Sublime Text
+alias subl="`guess-sublime-location.bash`"
+
+# Use nano alias to launch Sublime Text
+alias nano="subl"
+
+# Use gedit alias to launch Sublime Text
+alias gedit="subl"
+
+# This make svn, git command line commits to use Sublime Text
+# for editing commit messages
+export EDITOR="subl-wrapper-wait-exit"

@@ -1,0 +1,18 @@
+#!/bin/bash
+#
+# Open Sublime Text 2in waiting mode,
+# so it can be used e.g. with git rebase -i.
+# (otherwise it returns immediately)
+#
+#
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+SUBL=`$DIR/guess-sublime-location.bash`
+
+if [ ! -e "$SUBL" ] ; then
+    echo "Sublime Text binary not found... check guess-sublime-location.bash"
+    exit 1
+fi
+
+"$SUBL" --new-window -wait $@
