@@ -1,0 +1,25 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Case Conversion",
+		"Djaneiro",
+		"DocBlockr",
+		"Emmet",
+		"Gist",
+		"Git",
+		"Markdown Preview",
+		"nginx",
+		"Package Control",
+		"Prefixr",
+		"Pretty JSON",
+		"SFTP",
+		"SideBarEnhancements",
+		"SideBarGit",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SVN",
+		"Tag",
+		"Theme - Soda"
+	]
+}

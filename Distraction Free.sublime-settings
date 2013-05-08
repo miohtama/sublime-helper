@@ -1,0 +1,13 @@
+{
+	"line_numbers": false,
+	"gutter": false,
+	"draw_centered": true,
+	"wrap_width": 80,
+	"word_wrap": true,
+	"scroll_past_end": true,
+    // Increase font size for better readibility in sun light
+    "font_size": 22,
+    // Change the color to look cool hipster
+    "color_scheme": "Packages/Color Scheme - Default/Amy.tmTheme"
+
+}
