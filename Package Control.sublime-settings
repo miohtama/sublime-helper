@@ -21,6 +21,7 @@
 		"SublimeLinter",
 		"SVN",
 		"Tag",
-		"Theme - Soda"
+		"Theme - Soda",
+        "JsFormat"
 	]
 }

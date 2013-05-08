@@ -1,12 +1,11 @@
 Introduction
 ---------------
 
-Setup Sublime Text configuration files and command line aliases based on predefined templates.
+*sublime-helper* is a shell script collection to setup Sublime Text configuration files and command line aliases based on predefined templates.
 
 .. contents :: :local:
 
-**Warning**: Will override existing Sublime Text 2 configs if anything has been changed from the default settings.
-**Please backup your existing configuration files if you want to keep them before running this**.
+**Warning**: Running *install.bash* will override existing Sublime Text 2 configs if anything has been changed from the default settings. **Please backup your existing configuration files if you want to keep them before running this**.
 
 Backup first
 --------------
@@ -19,15 +18,15 @@ Linux
 
 Install Sublime Text on Linux and extract .tar.bz2 as **~/Sublime Text 2** folder (*Sublime Text 2* folder in your home directory).
 
-**OTHER FOLDERS DON'T WORK**.
+**OTHER INSTALLATION LOCATIONS DON'T WORK** on Linux for now.
 
 OSX
 ----
 
 Use default Sublime Text 2 installation location.
 
-Run Sublime Once
--------------------
+Run Sublime Text once
+----------------------
 
 Install Package Control inside Sublime Text.
 
@@ -62,7 +61,7 @@ Type::
 
     subl .
 
-To open it as a project.
+To open the current folder as a Sublime Text project - you will have sidebar to browse files.
 
 Features
 ----------
