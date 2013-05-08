@@ -17,7 +17,9 @@ Backup everything here.
 Linux
 ------
 
-Install Sublime Text on Linux and extract .tar.bz2 as *~/Sublime Text 2* folder (*Sublime Text 2* folder in your home directory)
+Install Sublime Text on Linux and extract .tar.bz2 as **~/Sublime Text 2** folder (*Sublime Text 2* folder in your home directory).
+
+**OTHER FOLDERS DON'T WORK**.
 
 OSX
 ----
@@ -42,13 +44,25 @@ Installing shell script and terminal helpers
 
 Make sure Sublime Text is closed in this point.
 
-Install config importer and shell helpers::
+Install config importer and shell helpers. This will create *sublime-helper* folder in your home directory::
 
     sudo apt-get install git  # Or your distribution corresponding command
     cd ~
     git clone git://github.com/miohtama/sublime-helper.git
-    ~/sublime-helper/bin/setup.sh
-    # Note: Currently supporting only setting up in ~/sublime-helper as path is hardcoded to .bashrc helper
+    ~/sublime-helper/bin/install.bash
+
+Note: Currently supporting only setting up in ``~/sublime-helper`` as path is hardcoded to ``.bashrc`` helper
+
+Usage
+---------
+
+Go to any folder.
+
+Type::
+
+    subl .
+
+To open it as a project.
 
 Features
 ----------
@@ -72,6 +86,14 @@ By default, Bash shell *.bashrc* is fixed to enable *subl* command.
 If you are using any other shell please add the command along the following lines to your shell config file::
 
     source $HOME/sublime-helper/bin/sublime-shell-settings
+
+Notes
+-------------
+
+Looks like *theme* setting export and import causes issues on pristine setup. Theme is not fetched correctly?
+
+Don't try to transfer font setting if the destination font is missing.
+Setup `Source Code Pro manually <http://opensourcehacker.com/2012/10/07/go-pro-and-your-eyes-will-thank-you/>`_.
 
 Author
 --------------

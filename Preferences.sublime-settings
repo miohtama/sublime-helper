@@ -60,7 +60,7 @@
 		"*.psd",
 		"*.db"
 	],
-	"font_face": "Source Code Pro Light",
+	//"font_face": "Source Code Pro Light",
 	"ignored_packages":
 	[
 		"Vintage"
@@ -71,7 +71,7 @@
 	],
 	"soda_retina_fix": true,
 	"tab_size": 4,
-	"theme": "Soda Dark.sublime-theme",
+	//"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true

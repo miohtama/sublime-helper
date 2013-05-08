@@ -34,3 +34,6 @@ if [ ! -e "$ST_USER" ] ; then
 fi
 
 cp $DIR/../*.sublime-settings "$ST_USER"
+
+echo "You are now good to start Sublime Text"
+echo "Open a new shell to have subl command line command available and test it with command subl ."
