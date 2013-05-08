@@ -29,6 +29,7 @@ Installing shell script and terminal helpers
 
 Install shell helpers::
 
+    sudo apt-get install git  # Or your distribution corresponding command
     # Note: Currently supporting only setting up in ~/sublime-helper as path is hardcoded to .bashrc helper
     cd ~
     git clone git@github.com:miohtama/sublime-helper.git
