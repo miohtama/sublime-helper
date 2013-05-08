@@ -16,5 +16,5 @@ if [ ! -e "$SUBL" ] ; then
     exit 1
 fi
 
-"$SUBL" $@
+"$SUBL" $@ &
 
