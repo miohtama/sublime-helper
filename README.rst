@@ -66,6 +66,9 @@ Type::
 
 To open the current folder as a Sublime Text project - you will have sidebar to browse files.
 
+When you start Sublime Text for the first time, after the script has updated *Package Control.sublime-settings* file,
+you will get various automatically opening tabs telling you that this and that plugin has been installed.
+
 Features
 ----------
 
